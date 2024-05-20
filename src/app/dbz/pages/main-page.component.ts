@@ -1,5 +1,6 @@
 import { Component} from '@angular/core';
 import { Character } from '../interfaces/character.interface';
+import { first } from 'rxjs';
 
 @Component({
   selector: 'app-dbz-main',
@@ -18,6 +19,11 @@ export class MainPageComponent {
     power: 0,
   }
   ];
+
+  onNewCharacter(character: Character) : void {
+
+    console.log(character);
+  }
 
 
 }

@@ -4,6 +4,7 @@ import { dbzComponent } from './components/components.component';
 import { MainPageComponent } from './pages/main-page.component';
 import { ListComponentDBZ } from './components/list/list-component/list-component.component';
 import {AgregaCharacterComponentComponent} from './components/agrega-character-component/agrega-character-component.component'
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -23,6 +24,7 @@ import {AgregaCharacterComponentComponent} from './components/agrega-character-c
     ],
     imports: [
         CommonModule,
+        FormsModule,
 
     ]
 })
