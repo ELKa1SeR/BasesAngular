@@ -1,7 +1,7 @@
 import { Component} from '@angular/core';
 
 @Component({
-  selector: 'app-add-character',
+  selector: 'dbz-add-character',
   templateUrl: './agrega-character-component.component.html',
   styleUrls: ['./agrega-character-component.component.css']
 })
